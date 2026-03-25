@@ -9,7 +9,7 @@
 // const plusButton = document.querySelector("button");
 
 const resultH1 = document.getElementById("result");
-const plusButton = document.getElementsByClassName("plusButton")[0];
+// const plusButton = document.getElementsByClassName("plusButton")[0];
 
 let count = 0;
 
@@ -18,7 +18,12 @@ let count = 0;
 //     resultH1.innerHTML = count;
 // });
 
-plusButton.onclick = () => {
+// plusButton.onclick = () => {
+//     count++;
+//     resultH1.innerHTML = count;
+// };
+
+function plus() {
     count++;
     resultH1.innerHTML = count;
-};
+}
