@@ -5,8 +5,11 @@
 //     document.getElementById("num").innerHTML = count;
 // }
 
-const resultH1 = document.querySelector("h1");
-const plusButton = document.querySelector("button");
+// const resultH1 = document.querySelector("h1");
+// const plusButton = document.querySelector("button");
+
+const resultH1 = document.getElementById("result");
+const plusButton = document.getElementsByClassName("plusButton")[0];
 
 let count = 0;
 
