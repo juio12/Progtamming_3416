@@ -24,7 +24,7 @@ let count = 0;
 // };
 
 resultH1.innerHTML = count;
-function plus() {
-    count++;
+function plus(number = 1) {
+    count += number;
     resultH1.innerHTML = count;
 }
