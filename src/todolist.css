@@ -1,12 +1,12 @@
 .todo {
     /* width: 90%;
     min-width: 400px; */
-    width: max(90%, 400px); /순서 상관없음 보통: 90%, 최소: 400px/
+    width: max(90%, 400px); /* 순서 상관없음 보통: 90%, 최소: 400px */
     background-color: #f9f9f9;
     margin: 20px auto;
     padding: 20px;
     border-radius: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /0: 가로, 2px: 세로, 4px: blur/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 0: 가로, 2px: 세로, 4px: blur */
 }
 .todo__title{
     font-size: 2rem;
