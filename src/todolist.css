@@ -1,4 +1,4 @@
-todo {
+.todo {
     /* width: 90%;
     min-width: 400px; */
     width: max(90%, 400px); /순서 상관없음 보통: 90%, 최소: 400px/
